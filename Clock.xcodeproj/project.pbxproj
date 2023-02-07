@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CBB2BBB299275E70010FBCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BBA299275E70010FBCF /* AppDelegate.swift */; };
+		6CBB2BBD299275E70010FBCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BBC299275E70010FBCF /* SceneDelegate.swift */; };
+		6CBB2BC4299275EE0010FBCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBB2BC3299275EE0010FBCF /* Assets.xcassets */; };
+		6CBB2BC7299275EE0010FBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CBB2BC5299275EE0010FBCF /* LaunchScreen.storyboard */; };
+		6CBB2BE6299277150010FBCF /* AlarmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BCF299277140010FBCF /* AlarmData.swift */; };
+		6CBB2BE7299277150010FBCF /* TimerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BD0299277140010FBCF /* TimerData.swift */; };
+		6CBB2BE8299277150010FBCF /* WorldTimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BD1299277140010FBCF /* WorldTimeData.swift */; };
+		6CBB2BE9299277150010FBCF /* RegionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BD3299277140010FBCF /* RegionTableViewCell.swift */; };
+		6CBB2BEA299277150010FBCF /* SmartAlarmTableViewCell copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BD4299277140010FBCF /* SmartAlarmTableViewCell copy.swift */; };
+		6CBB2BEB299277150010FBCF /* WorldTimeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BD5299277140010FBCF /* WorldTimeTableCell.swift */; };
+		6CBB2BED299277150010FBCF /* AlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BD7299277140010FBCF /* AlarmTableViewCell.swift */; };
+		6CBB2BEE299277150010FBCF /* WorldTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BD9299277150010FBCF /* WorldTime.swift */; };
+		6CBB2BEF299277150010FBCF /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BDA299277150010FBCF /* TimerModel.swift */; };
+		6CBB2BF0299277150010FBCF /* Alarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BDB299277150010FBCF /* Alarm.swift */; };
+		6CBB2BF1299277150010FBCF /* WorldTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BDE299277150010FBCF /* WorldTimeVC.swift */; };
+		6CBB2BF2299277150010FBCF /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BDF299277150010FBCF /* TabBarC.swift */; };
+		6CBB2BF3299277150010FBCF /* TimerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BE0299277150010FBCF /* TimerVC.swift */; };
+		6CBB2BF4299277150010FBCF /* StopWatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BE1299277150010FBCF /* StopWatchVC.swift */; };
+		6CBB2BF5299277150010FBCF /* AlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BE2299277150010FBCF /* AlarmVC.swift */; };
+		6CBB2BF6299277150010FBCF /* RegionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BE4299277150010FBCF /* RegionsVC.swift */; };
+		6CBB2BF7299277150010FBCF /* SetAlarmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BE5299277150010FBCF /* SetAlarmVC.swift */; };
+		6CBB2BF9299277B40010FBCF /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BF8299277B40010FBCF /* Circle.swift */; };
+		6CBB2BFB299277FE0010FBCF /* CircleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BFA299277FE0010FBCF /* CircleTableCell.swift */; };
+		6CBB2BFD2992D0CC0010FBCF /* SettingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BFC2992D0CC0010FBCF /* SettingsData.swift */; };
+		6CBB2BFF2992D1E90010FBCF /* SettingsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2BFE2992D1E90010FBCF /* SettingsTableCell.swift */; };
+		6CBB2C012992D2150010FBCF /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CBB2C002992D2150010FBCF /* Setting.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CBB2BB7299275E70010FBCF /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CBB2BBA299275E70010FBCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CBB2BBC299275E70010FBCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CBB2BC3299275EE0010FBCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CBB2BC6299275EE0010FBCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CBB2BC8299275EE0010FBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CBB2BCF299277140010FBCF /* AlarmData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmData.swift; sourceTree = "<group>"; };
+		6CBB2BD0299277140010FBCF /* TimerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerData.swift; sourceTree = "<group>"; };
+		6CBB2BD1299277140010FBCF /* WorldTimeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldTimeData.swift; sourceTree = "<group>"; };
+		6CBB2BD3299277140010FBCF /* RegionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionTableViewCell.swift; sourceTree = "<group>"; };
+		6CBB2BD4299277140010FBCF /* SmartAlarmTableViewCell copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SmartAlarmTableViewCell copy.swift"; sourceTree = "<group>"; };
+		6CBB2BD5299277140010FBCF /* WorldTimeTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldTimeTableCell.swift; sourceTree = "<group>"; };
+		6CBB2BD7299277140010FBCF /* AlarmTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmTableViewCell.swift; sourceTree = "<group>"; };
+		6CBB2BD9299277150010FBCF /* WorldTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldTime.swift; sourceTree = "<group>"; };
+		6CBB2BDA299277150010FBCF /* TimerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		6CBB2BDB299277150010FBCF /* Alarm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alarm.swift; sourceTree = "<group>"; };
+		6CBB2BDE299277150010FBCF /* WorldTimeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorldTimeVC.swift; sourceTree = "<group>"; };
+		6CBB2BDF299277150010FBCF /* TabBarC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
+		6CBB2BE0299277150010FBCF /* TimerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerVC.swift; sourceTree = "<group>"; };
+		6CBB2BE1299277150010FBCF /* StopWatchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StopWatchVC.swift; sourceTree = "<group>"; };
+		6CBB2BE2299277150010FBCF /* AlarmVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmVC.swift; sourceTree = "<group>"; };
+		6CBB2BE4299277150010FBCF /* RegionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionsVC.swift; sourceTree = "<group>"; };
+		6CBB2BE5299277150010FBCF /* SetAlarmVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetAlarmVC.swift; sourceTree = "<group>"; };
+		6CBB2BF8299277B40010FBCF /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
+		6CBB2BFA299277FE0010FBCF /* CircleTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleTableCell.swift; sourceTree = "<group>"; };
+		6CBB2BFC2992D0CC0010FBCF /* SettingsData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsData.swift; sourceTree = "<group>"; };
+		6CBB2BFE2992D1E90010FBCF /* SettingsTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableCell.swift; sourceTree = "<group>"; };
+		6CBB2C002992D2150010FBCF /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CBB2BB4299275E70010FBCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CBB2BAE299275E60010FBCF = {
+			isa = PBXGroup;
+			children = (
+				6CBB2BB9299275E70010FBCF /* Clock */,
+				6CBB2BB8299275E70010FBCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CBB2BB8299275E70010FBCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBB2BB7299275E70010FBCF /* Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CBB2BB9299275E70010FBCF /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				6CBB2BDC299277150010FBCF /* Controller */,
+				6CBB2BCE299277140010FBCF /* Data */,
+				6CBB2BD8299277140010FBCF /* Model */,
+				6CBB2BD2299277140010FBCF /* View */,
+				6CBB2BBA299275E70010FBCF /* AppDelegate.swift */,
+				6CBB2BBC299275E70010FBCF /* SceneDelegate.swift */,
+				6CBB2BC3299275EE0010FBCF /* Assets.xcassets */,
+				6CBB2BC5299275EE0010FBCF /* LaunchScreen.storyboard */,
+				6CBB2BC8299275EE0010FBCF /* Info.plist */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		6CBB2BCE299277140010FBCF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6CBB2BD1299277140010FBCF /* WorldTimeData.swift */,
+				6CBB2BCF299277140010FBCF /* AlarmData.swift */,
+				6CBB2BD0299277140010FBCF /* TimerData.swift */,
+				6CBB2BFC2992D0CC0010FBCF /* SettingsData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6CBB2BD2299277140010FBCF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CBB2BD3299277140010FBCF /* RegionTableViewCell.swift */,
+				6CBB2BD5299277140010FBCF /* WorldTimeTableCell.swift */,
+				6CBB2BD4299277140010FBCF /* SmartAlarmTableViewCell copy.swift */,
+				6CBB2BD7299277140010FBCF /* AlarmTableViewCell.swift */,
+				6CBB2BFE2992D1E90010FBCF /* SettingsTableCell.swift */,
+				6CBB2BFA299277FE0010FBCF /* CircleTableCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CBB2BD8299277140010FBCF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6CBB2BD9299277150010FBCF /* WorldTime.swift */,
+				6CBB2BDB299277150010FBCF /* Alarm.swift */,
+				6CBB2BDA299277150010FBCF /* TimerModel.swift */,
+				6CBB2BF8299277B40010FBCF /* Circle.swift */,
+				6CBB2C002992D2150010FBCF /* Setting.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CBB2BDC299277150010FBCF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CBB2BDD299277150010FBCF /* Core */,
+				6CBB2BE3299277150010FBCF /* General */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CBB2BDD299277150010FBCF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6CBB2BDE299277150010FBCF /* WorldTimeVC.swift */,
+				6CBB2BE2299277150010FBCF /* AlarmVC.swift */,
+				6CBB2BE1299277150010FBCF /* StopWatchVC.swift */,
+				6CBB2BE0299277150010FBCF /* TimerVC.swift */,
+				6CBB2BDF299277150010FBCF /* TabBarC.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6CBB2BE3299277150010FBCF /* General */ = {
+			isa = PBXGroup;
+			children = (
+				6CBB2BE4299277150010FBCF /* RegionsVC.swift */,
+				6CBB2BE5299277150010FBCF /* SetAlarmVC.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CBB2BB6299275E70010FBCF /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CBB2BCB299275EE0010FBCF /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				6CBB2BB3299275E70010FBCF /* Sources */,
+				6CBB2BB4299275E70010FBCF /* Frameworks */,
+				6CBB2BB5299275E70010FBCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = 6CBB2BB7299275E70010FBCF /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CBB2BAF299275E60010FBCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					6CBB2BB6299275E70010FBCF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 6CBB2BB2299275E60010FBCF /* Build configuration list for PBXProject "Clock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CBB2BAE299275E60010FBCF;
+			productRefGroup = 6CBB2BB8299275E70010FBCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CBB2BB6299275E70010FBCF /* Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CBB2BB5299275E70010FBCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBB2BC7299275EE0010FBCF /* LaunchScreen.storyboard in Resources */,
+				6CBB2BC4299275EE0010FBCF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CBB2BB3299275E70010FBCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBB2BF4299277150010FBCF /* StopWatchVC.swift in Sources */,
+				6CBB2BE6299277150010FBCF /* AlarmData.swift in Sources */,
+				6CBB2BEA299277150010FBCF /* SmartAlarmTableViewCell copy.swift in Sources */,
+				6CBB2BFF2992D1E90010FBCF /* SettingsTableCell.swift in Sources */,
+				6CBB2BF3299277150010FBCF /* TimerVC.swift in Sources */,
+				6CBB2C012992D2150010FBCF /* Setting.swift in Sources */,
+				6CBB2BF1299277150010FBCF /* WorldTimeVC.swift in Sources */,
+				6CBB2BEB299277150010FBCF /* WorldTimeTableCell.swift in Sources */,
+				6CBB2BE7299277150010FBCF /* TimerData.swift in Sources */,
+				6CBB2BBB299275E70010FBCF /* AppDelegate.swift in Sources */,
+				6CBB2BFB299277FE0010FBCF /* CircleTableCell.swift in Sources */,
+				6CBB2BED299277150010FBCF /* AlarmTableViewCell.swift in Sources */,
+				6CBB2BF7299277150010FBCF /* SetAlarmVC.swift in Sources */,
+				6CBB2BF2299277150010FBCF /* TabBarC.swift in Sources */,
+				6CBB2BF5299277150010FBCF /* AlarmVC.swift in Sources */,
+				6CBB2BE9299277150010FBCF /* RegionTableViewCell.swift in Sources */,
+				6CBB2BFD2992D0CC0010FBCF /* SettingsData.swift in Sources */,
+				6CBB2BF9299277B40010FBCF /* Circle.swift in Sources */,
+				6CBB2BF0299277150010FBCF /* Alarm.swift in Sources */,
+				6CBB2BE8299277150010FBCF /* WorldTimeData.swift in Sources */,
+				6CBB2BEF299277150010FBCF /* TimerModel.swift in Sources */,
+				6CBB2BEE299277150010FBCF /* WorldTime.swift in Sources */,
+				6CBB2BBD299275E70010FBCF /* SceneDelegate.swift in Sources */,
+				6CBB2BF6299277150010FBCF /* RegionsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CBB2BC5299275EE0010FBCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CBB2BC6299275EE0010FBCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CBB2BC9299275EE0010FBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CBB2BCA299275EE0010FBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CBB2BCC299275EE0010FBCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.company.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CBB2BCD299275EE0010FBCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Clock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.company.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CBB2BB2299275E60010FBCF /* Build configuration list for PBXProject "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CBB2BC9299275EE0010FBCF /* Debug */,
+				6CBB2BCA299275EE0010FBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CBB2BCB299275EE0010FBCF /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CBB2BCC299275EE0010FBCF /* Debug */,
+				6CBB2BCD299275EE0010FBCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CBB2BAF299275E60010FBCF /* Project object */;
+}
