@@ -64,7 +64,7 @@ class WorldTimeVC: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         worldTimeTable.frame = view.bounds //робимо по ширині екрану нашу вью з noTimeLbl, коли не обрані ще міста з часом
-        //worldTimeTable.backgroundColor = .black
+        worldTimeTable.backgroundColor = .systemBackground
     }
     
     //MARK: - Add subviews
