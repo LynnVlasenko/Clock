@@ -32,7 +32,6 @@ class TimerVC: UIViewController {
     private let timeLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 82, weight: .thin)
-        label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
         label.isHidden = true
         return label
@@ -42,7 +41,6 @@ class TimerVC: UIViewController {
         let label = UILabel()
         label.text = "год"
         label.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
-        label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -51,7 +49,6 @@ class TimerVC: UIViewController {
         let label = UILabel()
         label.text = "хв"
         label.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
-        label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
@@ -60,7 +57,6 @@ class TimerVC: UIViewController {
         let label = UILabel()
         label.text = "с"
         label.font = UIFont.systemFont(ofSize: 17, weight: .semibold)
-        label.textColor = .white
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
