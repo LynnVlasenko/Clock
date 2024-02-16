@@ -52,7 +52,7 @@ class AlarmVC: UIViewController {
     }
     
     
-    //MARK: - configure NavBar
+    //MARK: - configure NavBar 
     private func configureNavBar() {
         title = "Будильник"
         navigationController?.navigationBar.prefersLargeTitles = true

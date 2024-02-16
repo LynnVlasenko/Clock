@@ -19,7 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.rootViewController = TabBarC()
         window?.makeKeyAndVisible()
         let window = UIApplication.shared.keyWindow
-        window?.overrideUserInterfaceStyle = .dark 
+        window?.overrideUserInterfaceStyle = .dark
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

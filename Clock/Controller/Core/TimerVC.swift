@@ -257,7 +257,6 @@ class TimerVC: UIViewController {
         circle2.backgroundColor = UIColor(named: "SpecialYellow")
         
         print("StartButton clicked")
-        
     }
     
     @objc func stopAction() {

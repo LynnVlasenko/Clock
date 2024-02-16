@@ -24,7 +24,7 @@ class WorldTimeVC: UIViewController {
         return table
     }()
     
-    // створено лейблу, яка відображаєтся коли жодне місто не додано
+    // створено лейблу, яка відображаєтся коли жодне місто не додано 
     private let noTimeLbl: UILabel = {
         let label = UILabel()
         label.text = "Немає годинників"

@@ -46,7 +46,6 @@ class AlarmTableViewCell: UITableViewCell {
             timeLbl.textColor = .systemGray
             typeLbl.textColor = .systemGray
         }
-        
     }
     
     //MARK: - Init
