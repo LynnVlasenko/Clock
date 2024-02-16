@@ -55,7 +55,6 @@ class AlarmVC: UIViewController {
     //MARK: - configure NavBar
     private func configureNavBar() {
         title = "Будильник"
-        //navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationBar.tintColor = .systemOrange
         

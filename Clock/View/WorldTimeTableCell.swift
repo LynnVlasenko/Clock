@@ -47,7 +47,7 @@ class WorldTimeTableCell: UITableViewCell {
     //оверайдимо ініт UITableViewCell(стандартна UI для комірки таблиці) і передаємо у нього функції з розмішенням UI елементів і констрейтами для них
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        contentView.backgroundColor = .black
+        contentView.backgroundColor = .systemBackground
         // add subviews
         addSubviews()
         

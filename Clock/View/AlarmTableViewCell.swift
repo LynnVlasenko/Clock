@@ -40,8 +40,8 @@ class AlarmTableViewCell: UITableViewCell {
     //MARK: - actions
     @objc private func alarmSwitchAction() {
         if alarmSwitch.isOn == true {
-            timeLbl.textColor = .white
-            typeLbl.textColor = .white
+            timeLbl.textColor = .none
+            typeLbl.textColor = .none
         } else {
             timeLbl.textColor = .systemGray
             typeLbl.textColor = .systemGray

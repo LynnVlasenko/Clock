@@ -253,7 +253,7 @@ class TimerVC: UIViewController {
         timerPicker.isHidden = true
         timeLabel.isHidden = false
         stopButton.isHidden = false
-        resetButton.setTitleColor(.white, for: .normal)
+        resetButton.setTitleColor(.none, for: .normal)
         circle2.backgroundColor = UIColor(named: "SpecialYellow")
         
         print("StartButton clicked")
